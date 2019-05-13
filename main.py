@@ -113,7 +113,7 @@ def indeedpost(link,title,summary):
         title = title.replace('(Louisville, Ky)','')
         title = title.replace('(Louisville)','')
         if title not in already:
-            reddit.subreddit('louisvillejobs').submit(title, url=link).reply(summary)
+            reddit.subreddit('###########').submit(title, url=link).reply(summary)
             list.append(link)
             print('Indeed posted\n',title)
             time.sleep(4)
